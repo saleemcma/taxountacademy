@@ -35,10 +35,10 @@ const ContactPage = () => {
               <SectionHeading title="Get in Touch" center={false} />
               <div className="space-y-5">
                 {[
-                  { icon: Phone, label: "Phone", value: "+92 300 1234567", href: "tel:+923001234567" },
-                  { icon: MessageCircle, label: "WhatsApp", value: "+92 300 1234567", href: "https://wa.me/923001234567" },
-                  { icon: Mail, label: "Email", value: "info@taxountacademy.com", href: "mailto:info@taxountacademy.com" },
-                  { icon: MapPin, label: "Address", value: "Office #12, Business Center, Main Boulevard, Lahore, Pakistan" },
+                  { icon: Phone, label: "Phone", value: "+92 304 0790303", href: "tel:+923040790303" },
+                  { icon: MessageCircle, label: "WhatsApp", value: "+92 304 0790303", href: "https://wa.me/923040790303" },
+                  { icon: Mail, label: "Email", value: "saleem@taxountacademy.com", href: "mailto:saleem@taxountacademy.com" },
+                  { icon: MapPin, label: "Address", value: "Street No. 8, Peer Kariyan, Pakpattan, Pakistan" },
                 ].map((item) => (
                   <div key={item.label} className="flex gap-4">
                     <div className="shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
