@@ -77,7 +77,7 @@ const AdmissionsPage = () => {
 
           <div className="mt-8 text-center">
             <p className="text-muted-foreground text-sm mb-3">Prefer to chat directly?</p>
-            <a href="https://wa.me/923001234567" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/923040790303" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="lg">
                 <MessageCircle className="mr-2 h-5 w-5" /> Chat on WhatsApp
               </Button>
