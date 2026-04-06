@@ -3,32 +3,32 @@ import SectionHeading from "@/components/SectionHeading";
 
 const tutors = [
   {
-    name: "Ahmad Khan",
-    specialization: "Tax & Compliance Expert",
-    bio: "Ahmad brings over 12 years of experience in Pakistan and UAE taxation. He specializes in income tax, sales tax compliance, and corporate tax advisory. His practical teaching approach helps students master tax filing with confidence.",
-    experience: "12+ Years",
-    courses: ["Income Tax (Pakistan)", "Sales Tax (Pakistan)", "Corporate Tax UAE"],
+    name: "Saleem Ali",
+    specialization: "CMA Finalist | Certified Tax Advisor | Certified International Accounting Tutor",
+    bio: "Saleem is a CMA Finalist and Certified Tax Advisor with deep expertise in taxation, cost & management accounting, and international accounting standards. His practical teaching methodology bridges the gap between theory and real-world application, empowering students to excel in professional exams and careers.",
+    experience: "10+ Years",
+    courses: ["Income Tax (Pakistan)", "Sales Tax (Pakistan)", "Corporate Tax UAE", "Cost Accounting"],
   },
   {
-    name: "Sara Malik",
-    specialization: "Accounting Software Specialist",
-    bio: "Sara is an expert in accounting software implementation and training. With 8+ years of hands-on experience, she has trained hundreds of students in QuickBooks, Odoo, and Zoho Books for efficient business accounting.",
+    name: "Muhammad Ahmad",
+    specialization: "CA Finalist",
+    bio: "Muhammad Ahmad is a CA Finalist with strong foundations in auditing, financial reporting, and accounting standards. His structured approach to teaching ensures students develop the analytical thinking and technical skills demanded by the profession.",
     experience: "8+ Years",
+    courses: ["Financial Accounting", "Managerial Accounting", "Excel for Accounting"],
+  },
+  {
+    name: "Zia Ur Rehman",
+    specialization: "M.COM",
+    bio: "Zia Ur Rehman holds a Master of Commerce degree and specializes in commerce subjects and accounting software training. His patient teaching style and focus on hands-on practice make complex software tools accessible to learners at all levels.",
+    experience: "7+ Years",
     courses: ["QuickBooks", "Odoo Accounting", "Zoho Books"],
   },
   {
-    name: "Usman Ali",
-    specialization: "Financial Accounting Instructor",
-    bio: "Usman holds a deep passion for financial accounting and IFRS standards. His decade of teaching experience ensures students build strong conceptual foundations alongside practical skills.",
-    experience: "10+ Years",
-    courses: ["Financial Accounting", "Excel for Accounting"],
-  },
-  {
-    name: "Fatima Noor",
-    specialization: "Cost & Managerial Accounting",
-    bio: "Fatima specializes in cost analysis, budgeting, and managerial decision-making. Her 7+ years of corporate and academic experience make complex topics accessible and engaging for all learners.",
-    experience: "7+ Years",
-    courses: ["Cost Accounting", "Managerial Accounting"],
+    name: "Jagruthi Chopra",
+    specialization: "CA Finalist | M.COM",
+    bio: "Jagruthi is a CA Finalist and M.COM graduate with expertise in financial accounting, taxation, and business analysis. Her ability to simplify advanced concepts and provide personalized mentorship makes her a favorite among students seeking career growth.",
+    experience: "9+ Years",
+    courses: ["Financial Accounting", "Cost Accounting", "Income Tax (Pakistan)"],
   },
 ];
 
