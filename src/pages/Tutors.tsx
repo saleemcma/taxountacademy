@@ -6,7 +6,7 @@ const tutors = [
     name: "Saleem Ali",
     specialization: "CMA Finalist | Certified Tax Advisor | Certified International Accounting Tutor",
     bio: "Saleem is a CMA Finalist and Certified Tax Advisor with deep expertise in taxation, cost & management accounting, and international accounting standards. His practical teaching methodology bridges the gap between theory and real-world application, empowering students to excel in professional exams and careers.",
-    experience: "10+ Years",
+    experience: "5+ Years",
     courses: ["Income Tax (Pakistan)", "Sales Tax (Pakistan)", "Corporate Tax UAE", "Cost Accounting"],
   },
   {
