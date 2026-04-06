@@ -40,7 +40,7 @@ const tutorsPreview = [
 ];
 
 const testimonials = [
-  { name: "Ali Raza", text: "AccuLearn Academy transformed my career. I landed an accounting job within weeks of completing the QuickBooks course.", rating: 5 },
+  { name: "Ali Raza", text: "Taxount Academy transformed my career. I landed an accounting job within weeks of completing the QuickBooks course.", rating: 5 },
   { name: "Hira Siddiqui", text: "The tax courses are incredibly practical. I now file tax returns confidently for my clients.", rating: 5 },
   { name: "Bilal Ahmed", text: "Best accounting training in the city. The tutors are patient and truly knowledgeable.", rating: 5 },
 ];
@@ -55,20 +55,20 @@ const Index = () => (
           Admissions Open — Enroll Today
         </span>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-primary-foreground max-w-4xl mx-auto leading-tight">
-          Master Accounting, Tax &amp; Software Skills
+          Professional Training in Accounting, Software, and Tax
         </h1>
         <p className="mt-6 text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed">
-          Practical training by industry experts to launch your career in accounting and finance. Join thousands of successful graduates.
+          Join Taxount Academy to gain practical skills in accounting software, accounting subjects, and tax courses with expert tutor guidance.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link to="/courses">
+          <Link to="/admissions">
             <Button variant="hero" size="lg" className="text-base px-8">
-              Explore Courses <ArrowRight className="ml-2 h-4 w-4" />
+              Enroll Now <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
-          <Link to="/admissions">
+          <Link to="/courses">
             <Button variant="hero-outline" size="lg" className="text-base px-8">
-              Enroll Now
+              View Courses
             </Button>
           </Link>
         </div>
@@ -104,7 +104,7 @@ const Index = () => (
     {/* Why Choose Us */}
     <section className="py-20 bg-surface-warm">
       <div className="container">
-        <SectionHeading badge="Why AccuLearn" title="Why Choose Us" description="We combine expert instruction with practical exercises to ensure you're job-ready from day one." />
+        <SectionHeading badge="Why Taxount" title="Why Choose Us" description="We combine expert instruction with practical exercises to ensure you're job-ready from day one." />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {whyUs.map((item) => (
             <div key={item.title} className="text-center p-6 rounded-xl bg-card shadow-card">
@@ -173,7 +173,7 @@ const Index = () => (
       <div className="container text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground">Ready to Start Your Journey?</h2>
         <p className="mt-4 text-lg text-primary-foreground/80 max-w-xl mx-auto">
-          Join AccuLearn Academy and gain the practical skills employers are looking for. Admissions are open now.
+          Join Taxount Academy and gain the practical skills employers are looking for. Admissions are open now.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
           <Link to="/admissions">

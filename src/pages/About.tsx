@@ -25,13 +25,13 @@ const AboutPage = () => (
         <SectionHeading badge="Our Story" title="Who We Are" />
         <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed space-y-4">
           <p>
-            AccuLearn Academy was founded with a simple belief: accounting education should be practical, accessible, and career-oriented. Too many students graduate with theoretical knowledge but struggle to apply it in real workplaces.
+            Taxount Academy was founded with a simple belief: accounting education should be practical, accessible, and career-oriented. Too many students graduate with theoretical knowledge but struggle to apply it in real workplaces.
           </p>
           <p>
             We set out to change that. Our academy provides comprehensive training in accounting software, core accounting subjects, and taxation — all taught by experienced industry professionals who understand what employers expect.
           </p>
           <p>
-            With a team of 4 dedicated tutors, small batch sizes, and a hands-on teaching approach, we ensure every student receives personalized guidance. Whether you're a commerce student, a job seeker, or a working professional looking to upskill, AccuLearn Academy is your partner in career growth.
+            With a team of 4 dedicated tutors, small batch sizes, and a hands-on teaching approach, we ensure every student receives personalized guidance. Whether you're a commerce student, a job seeker, or a working professional looking to upskill, Taxount Academy is your partner in career growth.
           </p>
         </div>
       </div>
