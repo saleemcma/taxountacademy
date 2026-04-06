@@ -20,7 +20,7 @@ const tutors = [
     name: "Zia Ur Rehman",
     specialization: "M.COM",
     bio: "Zia Ur Rehman holds a Master of Commerce degree and specializes in commerce subjects and accounting software training. His patient teaching style and focus on hands-on practice make complex software tools accessible to learners at all levels.",
-    experience: "7+ Years",
+    experience: "5+ Years",
     courses: ["QuickBooks", "Odoo Accounting", "Zoho Books"],
   },
   {
