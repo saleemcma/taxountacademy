@@ -48,15 +48,15 @@ const Footer = () => (
           <ul className="space-y-3 text-sm text-navy-foreground/70">
             <li className="flex items-start gap-2">
               <Phone className="h-4 w-4 mt-0.5 shrink-0" />
-              +92 300 1234567
+              +92 304 0790303
             </li>
             <li className="flex items-start gap-2">
               <Mail className="h-4 w-4 mt-0.5 shrink-0" />
-              info@taxountacademy.com
+              saleem@taxountacademy.com
             </li>
             <li className="flex items-start gap-2">
               <MapPin className="h-4 w-4 mt-0.5 shrink-0" />
-              Office #12, Business Center, Lahore, Pakistan
+              Street No. 8, Peer Kariyan, Pakpattan, Pakistan
             </li>
           </ul>
         </div>

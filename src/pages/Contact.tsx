@@ -35,10 +35,10 @@ const ContactPage = () => {
               <SectionHeading title="Get in Touch" center={false} />
               <div className="space-y-5">
                 {[
-                  { icon: Phone, label: "Phone", value: "+92 300 1234567", href: "tel:+923001234567" },
-                  { icon: MessageCircle, label: "WhatsApp", value: "+92 300 1234567", href: "https://wa.me/923001234567" },
-                  { icon: Mail, label: "Email", value: "info@taxountacademy.com", href: "mailto:info@taxountacademy.com" },
-                  { icon: MapPin, label: "Address", value: "Office #12, Business Center, Main Boulevard, Lahore, Pakistan" },
+                  { icon: Phone, label: "Phone", value: "+92 304 0790303", href: "tel:+923040790303" },
+                  { icon: MessageCircle, label: "WhatsApp", value: "+92 304 0790303", href: "https://wa.me/923040790303" },
+                  { icon: Mail, label: "Email", value: "saleem@taxountacademy.com", href: "mailto:saleem@taxountacademy.com" },
+                  { icon: MapPin, label: "Address", value: "Street No. 8, Peer Kariyan, Pakpattan, Pakistan" },
                 ].map((item) => (
                   <div key={item.label} className="flex gap-4">
                     <div className="shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
@@ -89,7 +89,7 @@ const ContactPage = () => {
       <section className="h-80">
         <iframe
           title="Taxount Academy Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.0!2d74.3587!3d31.5204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDMxJzEzLjQiTiA3NMKwMjEnMzEuMyJF!5e0!3m2!1sen!2s!4v1"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.0!2d73.3894!3d30.3556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDIxJzIwLjIiTiA3M8KwMjMnMjEuOCJF!5e0!3m2!1sen!2s!4v1"
           width="100%"
           height="100%"
           style={{ border: 0 }}
