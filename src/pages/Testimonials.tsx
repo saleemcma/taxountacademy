@@ -3,7 +3,7 @@ import SectionHeading from "@/components/SectionHeading";
 import { Star } from "lucide-react";
 
 const reviews = [
-  { name: "Ali Raza", course: "QuickBooks Training", text: "AccuLearn Academy transformed my career. The QuickBooks course was extremely practical and I landed an accounting job within weeks of completing it.", rating: 5 },
+  { name: "Ali Raza", course: "QuickBooks Training", text: "Taxount Academy transformed my career. The QuickBooks course was extremely practical and I landed an accounting job within weeks of completing it.", rating: 5 },
   { name: "Hira Siddiqui", course: "Income Tax Course", text: "The tax courses are incredibly practical. I now file tax returns confidently for my clients. The tutors explain complex tax laws in simple terms.", rating: 5 },
   { name: "Bilal Ahmed", course: "Financial Accounting", text: "Best accounting training in the city. The tutors are patient and truly knowledgeable. I finally understand IFRS standards thanks to Usman Sir.", rating: 5 },
   { name: "Ayesha Tariq", course: "Zoho Books", text: "Sara Ma'am's teaching style is exceptional. She made accounting software so easy to learn. I'm now managing my company's books on Zoho independently.", rating: 5 },

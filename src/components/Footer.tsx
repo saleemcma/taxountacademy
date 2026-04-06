@@ -8,10 +8,10 @@ const Footer = () => (
         <div>
           <Link to="/" className="flex items-center gap-2 font-heading font-bold text-xl mb-4">
             <GraduationCap className="h-6 w-6" />
-            AccuLearn Academy
+            Taxount Academy
           </Link>
           <p className="text-sm text-navy-foreground/70 leading-relaxed">
-            Empowering students and professionals with practical accounting, tax, and software skills for real-world success.
+            Learn Accounting, Software, and Tax Skills with Confidence. Practical training by industry experts.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ const Footer = () => (
             </li>
             <li className="flex items-start gap-2">
               <Mail className="h-4 w-4 mt-0.5 shrink-0" />
-              info@acculearnacademy.com
+              info@taxountacademy.com
             </li>
             <li className="flex items-start gap-2">
               <MapPin className="h-4 w-4 mt-0.5 shrink-0" />
@@ -63,7 +63,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-navy-foreground/10 mt-10 pt-6 text-center text-sm text-navy-foreground/50">
-        © {new Date().getFullYear()} AccuLearn Academy. All rights reserved.
+        © {new Date().getFullYear()} Taxount Academy. All rights reserved.
       </div>
     </div>
   </footer>

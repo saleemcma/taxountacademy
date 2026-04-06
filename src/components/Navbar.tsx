@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2 font-heading font-bold text-xl text-primary">
           <GraduationCap className="h-7 w-7" />
-          <span>AccuLearn Academy</span>
+          <span>Taxount Academy</span>
         </Link>
 
         {/* Desktop */}

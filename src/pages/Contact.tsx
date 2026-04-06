@@ -31,14 +31,13 @@ const ContactPage = () => {
       <section className="py-20 bg-background">
         <div className="container">
           <div className="grid lg:grid-cols-3 gap-12">
-            {/* Contact Info */}
             <div className="space-y-6">
               <SectionHeading title="Get in Touch" center={false} />
               <div className="space-y-5">
                 {[
                   { icon: Phone, label: "Phone", value: "+92 300 1234567", href: "tel:+923001234567" },
                   { icon: MessageCircle, label: "WhatsApp", value: "+92 300 1234567", href: "https://wa.me/923001234567" },
-                  { icon: Mail, label: "Email", value: "info@acculearnacademy.com", href: "mailto:info@acculearnacademy.com" },
+                  { icon: Mail, label: "Email", value: "info@taxountacademy.com", href: "mailto:info@taxountacademy.com" },
                   { icon: MapPin, label: "Address", value: "Office #12, Business Center, Main Boulevard, Lahore, Pakistan" },
                 ].map((item) => (
                   <div key={item.label} className="flex gap-4">
@@ -60,7 +59,6 @@ const ContactPage = () => {
               </div>
             </div>
 
-            {/* Contact Form */}
             <div className="lg:col-span-2">
               <form onSubmit={handleSubmit} className="space-y-5 rounded-xl border bg-card p-8 shadow-card">
                 <div className="grid sm:grid-cols-2 gap-5">
@@ -88,10 +86,9 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Google Maps */}
       <section className="h-80">
         <iframe
-          title="AccuLearn Academy Location"
+          title="Taxount Academy Location"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.0!2d74.3587!3d31.5204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDMxJzEzLjQiTiA3NMKwMjEnMzEuMyJF!5e0!3m2!1sen!2s!4v1"
           width="100%"
           height="100%"
