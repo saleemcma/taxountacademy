@@ -33,10 +33,10 @@ const whyUs = [
 ];
 
 const tutorsPreview = [
-  { name: "Ahmad Khan", role: "Tax & Compliance Expert", exp: "12+ years experience" },
-  { name: "Sara Malik", role: "Accounting Software Specialist", exp: "8+ years experience" },
-  { name: "Usman Ali", role: "Financial Accounting Instructor", exp: "10+ years experience" },
-  { name: "Fatima Noor", role: "Cost & Managerial Accounting", exp: "7+ years experience" },
+  { name: "Saleem Ali", role: "CMA Finalist, Certified Tax Advisor, Certified International Accounting Tutor", exp: "Tax & Accounting Expert" },
+  { name: "Muhammad Ahmad", role: "CA Finalist", exp: "Chartered Accountancy Professional" },
+  { name: "Zia Ur Rehman", role: "M.COM", exp: "Commerce & Accounting Specialist" },
+  { name: "Jagruthi Chopra", role: "CA Finalist, M.COM", exp: "Accounting & Finance Expert" },
 ];
 
 const testimonials = [
