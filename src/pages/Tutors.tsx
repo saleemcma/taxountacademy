@@ -27,7 +27,7 @@ const tutors = [
     name: "Jagruthi Chopra",
     specialization: "CA Finalist | M.COM",
     bio: "Jagruthi is a CA Finalist and M.COM graduate with expertise in financial accounting, taxation, and business analysis. Her ability to simplify advanced concepts and provide personalized mentorship makes her a favorite among students seeking career growth.",
-    experience: "9+ Years",
+    experience: "6+ Years",
     courses: ["Financial Accounting", "Cost Accounting", "Income Tax (Pakistan)"],
   },
 ];
