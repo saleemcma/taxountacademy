@@ -13,7 +13,7 @@ const tutors = [
     name: "Muhammad Ahmad",
     specialization: "CA Finalist",
     bio: "Muhammad Ahmad is a CA Finalist with strong foundations in auditing, financial reporting, and accounting standards. His structured approach to teaching ensures students develop the analytical thinking and technical skills demanded by the profession.",
-    experience: "8+ Years",
+    experience: "2+ Years",
     courses: ["Financial Accounting", "Managerial Accounting", "Excel for Accounting"],
   },
   {
