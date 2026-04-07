@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.jpeg";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
@@ -21,7 +22,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 border-b bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2 font-heading font-bold text-xl text-primary">
-          <GraduationCap className="h-7 w-7" />
+          <img src={logo} alt="Taxount Academy" className="h-10 w-10 rounded object-contain" />
           <span>Taxount Academy</span>
         </Link>
 

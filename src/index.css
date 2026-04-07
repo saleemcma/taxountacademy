@@ -15,16 +15,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 15%;
 
-    --primary: 215 90% 42%;
+    --primary: 212 52% 24%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 30% 95%;
-    --secondary-foreground: 220 20% 15%;
+    --secondary: 45 59% 41%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 20% 96%;
     --muted-foreground: 215 15% 50%;
 
-    --accent: 215 85% 55%;
+    --accent: 45 59% 41%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,13 +32,13 @@
 
     --border: 214 25% 90%;
     --input: 214 25% 90%;
-    --ring: 215 90% 42%;
+    --ring: 212 52% 24%;
 
     --radius: 0.625rem;
 
-    --hero-gradient: linear-gradient(135deg, hsl(215 90% 42%) 0%, hsl(215 85% 55%) 50%, hsl(200 80% 50%) 100%);
-    --card-shadow: 0 4px 24px -4px hsl(215 90% 42% / 0.08);
-    --card-shadow-hover: 0 8px 32px -4px hsl(215 90% 42% / 0.15);
+    --hero-gradient: linear-gradient(135deg, hsl(212 52% 24%) 0%, hsl(212 52% 32%) 50%, hsl(45 59% 41%) 100%);
+    --card-shadow: 0 4px 24px -4px hsl(212 52% 24% / 0.08);
+    --card-shadow-hover: 0 8px 32px -4px hsl(212 52% 24% / 0.15);
 
     --surface-warm: 35 30% 97%;
     --navy: 220 30% 18%;
@@ -61,19 +61,19 @@
     --card-foreground: 210 20% 96%;
     --popover: 220 20% 13%;
     --popover-foreground: 210 20% 96%;
-    --primary: 215 85% 55%;
+    --primary: 212 52% 35%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 217 30% 20%;
-    --secondary-foreground: 210 20% 96%;
+    --secondary: 45 59% 45%;
+    --secondary-foreground: 0 0% 100%;
     --muted: 217 30% 20%;
     --muted-foreground: 215 20% 65%;
-    --accent: 215 85% 55%;
+    --accent: 45 59% 45%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
     --border: 217 30% 22%;
     --input: 217 30% 22%;
-    --ring: 215 85% 55%;
+    --ring: 212 52% 35%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

@@ -2,13 +2,12 @@ import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Clock, BarChart3, DollarSign } from "lucide-react";
+import { Clock, DollarSign } from "lucide-react";
 
 interface Course {
   title: string;
   desc: string;
   duration: string;
-  level: string;
   fee: string;
 }
 
@@ -16,26 +15,26 @@ const courseCategories: { category: string; courses: Course[] }[] = [
   {
     category: "Accounting Software Training",
     courses: [
-      { title: "QuickBooks", desc: "Complete QuickBooks training covering invoicing, expense tracking, payroll, and financial reporting.", duration: "6 Weeks", level: "Beginner to Intermediate", fee: "PKR 15,000" },
-      { title: "Odoo Accounting", desc: "Learn Odoo ERP accounting module including journal entries, bank reconciliation, and reporting.", duration: "8 Weeks", level: "Intermediate", fee: "PKR 18,000" },
-      { title: "Zoho Books", desc: "Master Zoho Books for invoicing, inventory management, and GST-compliant accounting.", duration: "5 Weeks", level: "Beginner", fee: "PKR 12,000" },
-      { title: "Excel for Accounting", desc: "Advanced Excel formulas, pivot tables, VLOOKUP, and financial modeling for accountants.", duration: "4 Weeks", level: "All Levels", fee: "PKR 10,000" },
+      { title: "QuickBooks", desc: "Complete QuickBooks training covering invoicing, expense tracking, payroll, and financial reporting.", duration: "8 Weeks", fee: "PKR 8,000" },
+      { title: "Odoo Accounting", desc: "Learn Odoo ERP accounting module including journal entries, bank reconciliation, and reporting.", duration: "8 Weeks", fee: "PKR 8,000" },
+      { title: "Xero", desc: "Master Xero for invoicing, inventory management, bank feeds, and cloud-based accounting.", duration: "8 Weeks", fee: "PKR 8,000" },
+      { title: "Excel for Accounting", desc: "Advanced Excel formulas, pivot tables, VLOOKUP, and financial modeling for accountants.", duration: "8 Weeks", fee: "PKR 8,000" },
     ],
   },
   {
     category: "Accounting Subjects Teaching",
     courses: [
-      { title: "Financial Accounting", desc: "Comprehensive coverage of IFRS, journal entries, ledger, trial balance, and financial statements.", duration: "10 Weeks", level: "Beginner to Advanced", fee: "PKR 20,000" },
-      { title: "Cost Accounting", desc: "Learn cost analysis, budgeting, variance analysis, and cost allocation techniques.", duration: "8 Weeks", level: "Intermediate", fee: "PKR 18,000" },
-      { title: "Managerial Accounting", desc: "Decision-making tools, CVP analysis, performance evaluation, and strategic planning.", duration: "8 Weeks", level: "Intermediate to Advanced", fee: "PKR 18,000" },
+      { title: "Financial Accounting", desc: "Comprehensive coverage of IFRS, journal entries, ledger, trial balance, and financial statements.", duration: "3 Months", fee: "PKR 15,000" },
+      { title: "Cost Accounting", desc: "Learn cost analysis, budgeting, variance analysis, and cost allocation techniques.", duration: "3 Months", fee: "PKR 12,000" },
+      { title: "Management Accounting", desc: "Decision-making tools, CVP analysis, performance evaluation, and strategic planning.", duration: "3 Months", fee: "PKR 15,000" },
     ],
   },
   {
     category: "Tax Courses",
     courses: [
-      { title: "Income Tax (Pakistan)", desc: "Pakistan income tax laws, return filing, withholding tax, and compliance requirements.", duration: "6 Weeks", level: "Intermediate", fee: "PKR 15,000" },
-      { title: "Sales Tax (Pakistan)", desc: "Sales tax registration, return filing, input/output adjustments, and FBR portal training.", duration: "5 Weeks", level: "Intermediate", fee: "PKR 14,000" },
-      { title: "Corporate Tax UAE", desc: "UAE corporate tax framework, compliance requirements, and free zone regulations.", duration: "6 Weeks", level: "Intermediate to Advanced", fee: "PKR 20,000" },
+      { title: "Income Tax (Pakistan)", desc: "Pakistan income tax laws, return filing, withholding tax, and compliance requirements.", duration: "8 Weeks", fee: "PKR 10,000" },
+      { title: "Sales Tax (Pakistan)", desc: "Sales tax registration, return filing, input/output adjustments, and FBR portal training.", duration: "8 Weeks", fee: "PKR 7,000" },
+      { title: "UAE Corporate Tax", desc: "UAE corporate tax framework, compliance requirements, and free zone regulations.", duration: "8 Weeks", fee: "PKR 12,000" },
     ],
   },
 ];
@@ -64,9 +63,6 @@ const CoursesPage = () => (
                   <div className="mt-4 space-y-2 text-sm">
                     <div className="flex items-center gap-2 text-muted-foreground">
                       <Clock className="h-4 w-4 text-primary" /> {course.duration}
-                    </div>
-                    <div className="flex items-center gap-2 text-muted-foreground">
-                      <BarChart3 className="h-4 w-4 text-primary" /> {course.level}
                     </div>
                     <div className="flex items-center gap-2 font-semibold text-foreground">
                       <DollarSign className="h-4 w-4 text-primary" /> {course.fee}

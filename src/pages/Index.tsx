@@ -40,9 +40,9 @@ const tutorsPreview = [
 ];
 
 const testimonials = [
-  { name: "Ali Raza", text: "Taxount Academy transformed my career. I landed an accounting job within weeks of completing the QuickBooks course.", rating: 5 },
-  { name: "Hira Siddiqui", text: "The tax courses are incredibly practical. I now file tax returns confidently for my clients.", rating: 5 },
-  { name: "Bilal Ahmed", text: "Best accounting training in the city. The tutors are patient and truly knowledgeable.", rating: 5 },
+  { name: "Usman Tariq", text: "Saleem Sir made income tax laws so easy to understand. I now confidently file returns for my clients.", rating: 5 },
+  { name: "Hassan Rauf", text: "Ahmad Sir's knowledge of IFRS and financial statements is remarkable. Best financial accounting course.", rating: 5 },
+  { name: "Bilal Mehmood", text: "Zia Sir made QuickBooks so simple. I went from zero to managing my company's entire bookkeeping.", rating: 5 },
 ];
 
 const Index = () => (
