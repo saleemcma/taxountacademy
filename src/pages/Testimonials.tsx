@@ -3,15 +3,15 @@ import SectionHeading from "@/components/SectionHeading";
 import { Star } from "lucide-react";
 
 const reviews = [
-  { name: "Ali Raza", course: "QuickBooks Training", text: "Taxount Academy transformed my career. The QuickBooks course was extremely practical and I landed an accounting job within weeks of completing it.", rating: 5 },
-  { name: "Hira Siddiqui", course: "Income Tax Course", text: "The tax courses are incredibly practical. I now file tax returns confidently for my clients. The tutors explain complex tax laws in simple terms.", rating: 5 },
-  { name: "Bilal Ahmed", course: "Financial Accounting", text: "Best accounting training in the city. The tutors are patient and truly knowledgeable. I finally understand IFRS standards thanks to Usman Sir.", rating: 5 },
-  { name: "Ayesha Tariq", course: "Zoho Books", text: "Sara Ma'am's teaching style is exceptional. She made accounting software so easy to learn. I'm now managing my company's books on Zoho independently.", rating: 5 },
-  { name: "Hassan Rauf", course: "Cost Accounting", text: "Fatima Ma'am explains cost accounting concepts with real-world examples. The course helped me ace my university exams and also prepared me for my job.", rating: 5 },
-  { name: "Zainab Khalid", course: "Corporate Tax UAE", text: "Ahmad Sir's knowledge of UAE corporate tax is outstanding. As someone planning to work in Dubai, this course gave me exactly the skills I needed.", rating: 4 },
-  { name: "Kamran Shah", course: "Excel for Accounting", text: "I thought I knew Excel until I took this course. The advanced formulas and pivot table techniques have made my work so much more efficient.", rating: 5 },
-  { name: "Nadia Parveen", course: "Sales Tax Course", text: "The FBR portal training was incredibly helpful. I can now handle sales tax filings for multiple clients without any confusion.", rating: 5 },
-  { name: "Farhan Iqbal", course: "Odoo Accounting", text: "Excellent course on Odoo ERP. The hands-on practice with real scenarios made all the difference. Highly recommend for aspiring ERP consultants.", rating: 4 },
+  { name: "Usman Tariq", course: "Income Tax", tutor: "Saleem Ali", text: "Saleem Sir made income tax laws so easy to understand. I can now confidently file returns for my clients. His real-world examples were extremely helpful.", rating: 5 },
+  { name: "David Thompson", course: "Cost & Management Accounting", tutor: "Saleem Ali", text: "Taking the Cost & Management Accounting course from Pakistan was a great decision. Saleem Sir's expertise in CMA topics is outstanding.", rating: 5 },
+  { name: "Amna Riaz", course: "Income Tax", tutor: "Saleem Ali", text: "The FBR portal training with Saleem Sir was incredibly practical. I now handle withholding tax and return filing independently for multiple clients.", rating: 4 },
+  { name: "James Wilson", course: "Cost & Management Accounting", tutor: "Saleem Ali", text: "As someone based in the UK, I found Saleem Sir's cost accounting course very thorough. His variance analysis teaching is world-class.", rating: 5 },
+  { name: "Hassan Rauf", course: "Financial Accounting", tutor: "Muhammad Ahmad", text: "Ahmad Sir's knowledge of IFRS and financial statements is remarkable. He explains complex standards in a very structured way.", rating: 5 },
+  { name: "Sarah Mitchell", course: "Financial Accounting", tutor: "Muhammad Ahmad", text: "I enrolled from Canada and Ahmad Sir's financial accounting course gave me the foundation I needed. Highly recommended for commerce students.", rating: 5 },
+  { name: "Bilal Mehmood", course: "QuickBooks", tutor: "Zia Ur Rehman", text: "Zia Sir made QuickBooks so simple. I went from zero knowledge to managing my company's entire bookkeeping independently.", rating: 5 },
+  { name: "Fatima Noor", course: "Odoo Accounting", tutor: "Zia Ur Rehman", text: "The Odoo ERP course was hands-on and practical. Zia Sir's patient teaching style helped me master the software quickly.", rating: 4 },
+  { name: "Omar Al-Rashid", course: "UAE Corporate Tax", tutor: "Jagruthi Chopra", text: "Jagruthi Ma'am's UAE corporate tax course was exactly what I needed before relocating to Dubai. Her knowledge of free zone regulations is excellent.", rating: 5 },
 ];
 
 const TestimonialsPage = () => (
@@ -39,7 +39,8 @@ const TestimonialsPage = () => (
               <p className="text-sm text-muted-foreground leading-relaxed italic mb-4">"{r.text}"</p>
               <div>
                 <p className="font-bold text-sm">{r.name}</p>
-                <p className="text-xs text-primary">{r.course}</p>
+                <p className="text-xs text-secondary">{r.course}</p>
+                <p className="text-xs text-muted-foreground">Tutor: {r.tutor}</p>
               </div>
             </div>
           ))}
