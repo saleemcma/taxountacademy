@@ -7,28 +7,28 @@ const tutors = [
     specialization: "CMA Finalist | Certified Tax Advisor | Certified International Accounting Tutor",
     bio: "Saleem is a CMA Finalist and Certified Tax Advisor with deep expertise in taxation, cost & management accounting, and international accounting standards. His practical teaching methodology bridges the gap between theory and real-world application, empowering students to excel in professional exams and careers.",
     experience: "5+ Years",
-    courses: ["Income Tax (Pakistan)", "Sales Tax (Pakistan)", "Corporate Tax UAE", "Cost Accounting"],
+    courses: ["Management Accounting", "Cost Accounting", "Income Tax (Pakistan)", "Sales Tax (Pakistan)"],
   },
   {
     name: "Muhammad Ahmad",
     specialization: "CA Finalist",
     bio: "Muhammad Ahmad is a CA Finalist with strong foundations in auditing, financial reporting, and accounting standards. His structured approach to teaching ensures students develop the analytical thinking and technical skills demanded by the profession.",
     experience: "2+ Years",
-    courses: ["Financial Accounting", "Managerial Accounting", "Excel for Accounting"],
+    courses: ["Financial Accounting", "Excel for Accounting"],
   },
   {
     name: "Zia Ur Rehman",
     specialization: "M.COM",
     bio: "Zia Ur Rehman holds a Master of Commerce degree and specializes in commerce subjects and accounting software training. His patient teaching style and focus on hands-on practice make complex software tools accessible to learners at all levels.",
     experience: "5+ Years",
-    courses: ["QuickBooks", "Odoo Accounting", "Zoho Books"],
+    courses: ["QuickBooks", "Odoo Accounting", "Zoho Books", "Xero"],
   },
   {
     name: "Jagruthi Chopra",
     specialization: "CA Finalist | M.COM",
     bio: "Jagruthi is a CA Finalist and M.COM graduate with expertise in financial accounting, taxation, and business analysis. Her ability to simplify advanced concepts and provide personalized mentorship makes her a favorite among students seeking career growth.",
     experience: "6+ Years",
-    courses: ["Financial Accounting", "Cost Accounting", "Income Tax (Pakistan)"],
+    courses: ["UAE Corporate Tax", "UAE VAT"],
   },
 ];
 
