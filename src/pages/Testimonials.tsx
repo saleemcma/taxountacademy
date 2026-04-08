@@ -4,14 +4,14 @@ import { Star } from "lucide-react";
 
 const reviews = [
   { name: "Usman Tariq", course: "Income Tax", tutor: "Saleem Ali", text: "Saleem Sir made income tax laws so easy to understand. I can now confidently file returns for my clients. His real-world examples were extremely helpful.", rating: 5 },
-  { name: "David Thompson", course: "Cost & Management Accounting", tutor: "Saleem Ali", text: "Taking the Cost & Management Accounting course from Pakistan was a great decision. Saleem Sir's expertise in CMA topics is outstanding.", rating: 5 },
+  { name: "David Thompson", course: "Management Accounting", tutor: "Saleem Ali", text: "Taking the Management Accounting course from Pakistan was a great decision. Saleem Sir's expertise in CMA topics is outstanding.", rating: 5 },
   { name: "Amna Riaz", course: "Income Tax", tutor: "Saleem Ali", text: "The FBR portal training with Saleem Sir was incredibly practical. I now handle withholding tax and return filing independently for multiple clients.", rating: 4 },
-  { name: "James Wilson", course: "Cost & Management Accounting", tutor: "Saleem Ali", text: "As someone based in the UK, I found Saleem Sir's cost accounting course very thorough. His variance analysis teaching is world-class.", rating: 5 },
+  { name: "James Wilson", course: "Cost Accounting", tutor: "Saleem Ali", text: "As someone based in the UK, I found Saleem Sir's cost accounting course very thorough. His variance analysis teaching is world-class.", rating: 5 },
   { name: "Hassan Rauf", course: "Financial Accounting", tutor: "Muhammad Ahmad", text: "Ahmad Sir's knowledge of IFRS and financial statements is remarkable. He explains complex standards in a very structured way.", rating: 5 },
-  { name: "Sarah Mitchell", course: "Financial Accounting", tutor: "Muhammad Ahmad", text: "I enrolled from Canada and Ahmad Sir's financial accounting course gave me the foundation I needed. Highly recommended for commerce students.", rating: 5 },
+  { name: "Sarah Mitchell", course: "Excel for Accounting", tutor: "Muhammad Ahmad", text: "I enrolled from Canada and Ahmad Sir's Excel for Accounting course gave me the foundation I needed. His pivot table and VLOOKUP lessons are incredibly practical.", rating: 5 },
   { name: "Bilal Mehmood", course: "QuickBooks", tutor: "Zia Ur Rehman", text: "Zia Sir made QuickBooks so simple. I went from zero knowledge to managing my company's entire bookkeeping independently.", rating: 5 },
   { name: "Fatima Noor", course: "Odoo Accounting", tutor: "Zia Ur Rehman", text: "The Odoo ERP course was hands-on and practical. Zia Sir's patient teaching style helped me master the software quickly.", rating: 4 },
-  { name: "Omar Al-Rashid", course: "UAE Corporate Tax", tutor: "Jagruthi Chopra", text: "Jagruthi Ma'am's UAE corporate tax course was exactly what I needed before relocating to Dubai. Her knowledge of free zone regulations is excellent.", rating: 5 },
+  { name: "Omar Al-Rashid", course: "UAE Corporate Tax & VAT", tutor: "Jagruthi Chopra", text: "Jagruthi Ma'am's UAE corporate tax and VAT course was exactly what I needed before relocating to Dubai. Her knowledge of free zone regulations and VAT compliance is excellent.", rating: 5 },
 ];
 
 const TestimonialsPage = () => (

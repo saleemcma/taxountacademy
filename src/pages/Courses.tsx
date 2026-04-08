@@ -26,7 +26,7 @@ const courseCategories: { category: string; courses: Course[] }[] = [
     courses: [
       { title: "Financial Accounting", desc: "Comprehensive coverage of IFRS, journal entries, ledger, trial balance, and financial statements.", duration: "3 Months", fee: "PKR 15,000" },
       { title: "Cost Accounting", desc: "Learn cost analysis, budgeting, variance analysis, and cost allocation techniques.", duration: "3 Months", fee: "PKR 12,000" },
-      { title: "Management Accounting", desc: "Decision-making tools, CVP analysis, performance evaluation, and strategic planning.", duration: "3 Months", fee: "PKR 15,000" },
+      { title: "Managerial Accounting", desc: "Decision-making tools, CVP analysis, performance evaluation, and strategic planning.", duration: "3 Months", fee: "PKR 15,000" },
     ],
   },
   {
@@ -35,6 +35,7 @@ const courseCategories: { category: string; courses: Course[] }[] = [
       { title: "Income Tax (Pakistan)", desc: "Pakistan income tax laws, return filing, withholding tax, and compliance requirements.", duration: "8 Weeks", fee: "PKR 10,000" },
       { title: "Sales Tax (Pakistan)", desc: "Sales tax registration, return filing, input/output adjustments, and FBR portal training.", duration: "8 Weeks", fee: "PKR 7,000" },
       { title: "UAE Corporate Tax", desc: "UAE corporate tax framework, compliance requirements, and free zone regulations.", duration: "8 Weeks", fee: "PKR 12,000" },
+      { title: "UAE VAT", desc: "UAE Value Added Tax registration, return filing, compliance, and input tax recovery.", duration: "8 Weeks", fee: "PKR 12,000" },
     ],
   },
 ];
