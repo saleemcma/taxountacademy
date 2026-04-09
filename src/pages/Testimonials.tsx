@@ -41,7 +41,7 @@ const TestimonialsPage = () => (
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed italic mb-4">"{r.text}"</p>
               <div>
-                <p className="font-bold text-sm">{r.name}</p>
+                <p className="font-bold text-sm">{r.name} <span className="text-xs font-normal text-muted-foreground">— {r.country}</span></p>
                 <p className="text-xs text-secondary">{r.course}</p>
                 <p className="text-xs text-muted-foreground">Tutor: {r.tutor}</p>
               </div>
