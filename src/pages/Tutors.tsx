@@ -60,6 +60,7 @@ const TutorsPage = () => (
                 <div>
                   <h3 className="font-bold text-lg">{t.name}</h3>
                   <p className="text-sm text-primary font-medium">{t.specialization}</p>
+                  <p className="text-xs font-medium text-secondary">{t.role}</p>
                   <p className="text-xs text-muted-foreground">{t.experience} Experience</p>
                 </div>
               </div>
