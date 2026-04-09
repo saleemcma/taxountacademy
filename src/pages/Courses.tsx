@@ -17,6 +17,7 @@ const courseCategories: { category: string; courses: Course[] }[] = [
     courses: [
       { title: "QuickBooks", desc: "Complete QuickBooks training covering invoicing, expense tracking, payroll, and financial reporting.", duration: "8 Weeks", fee: "PKR 8,000" },
       { title: "Odoo Accounting", desc: "Learn Odoo ERP accounting module including journal entries, bank reconciliation, and reporting.", duration: "8 Weeks", fee: "PKR 8,000" },
+      { title: "Zoho Books", desc: "Learn Zoho Books for invoicing, expense management, bank reconciliation, and GST-compliant reporting.", duration: "8 Weeks", fee: "PKR 8,000" },
       { title: "Xero", desc: "Master Xero for invoicing, inventory management, bank feeds, and cloud-based accounting.", duration: "8 Weeks", fee: "PKR 8,000" },
       { title: "Excel for Accounting", desc: "Advanced Excel formulas, pivot tables, VLOOKUP, and financial modeling for accountants.", duration: "8 Weeks", fee: "PKR 8,000" },
     ],
