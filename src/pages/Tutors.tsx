@@ -1,9 +1,11 @@
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
+import saleemImg from "@/assets/saleem-ali.jpg";
 
 const tutors = [
   {
     name: "Saleem Ali",
+    image: saleemImg,
     specialization: "CMA Finalist | Certified Tax Advisor | Certified International Accounting Tutor",
     role: "Assistant Manager Audit & Tax Advisory",
     bio: "Saleem is a CMA Finalist and Certified Tax Advisor with deep expertise in taxation, cost & management accounting, and international accounting standards. His practical teaching methodology bridges the gap between theory and real-world application, empowering students to excel in professional exams and careers.",
@@ -12,6 +14,7 @@ const tutors = [
   },
   {
     name: "Muhammad Ahmad",
+    image: null as string | null,
     specialization: "CA Finalist",
     role: "Manager Audit & Tax Advisory",
     bio: "Muhammad Ahmad is a CA Finalist with strong foundations in auditing, financial reporting, and accounting standards. His structured approach to teaching ensures students develop the analytical thinking and technical skills demanded by the profession.",
@@ -20,6 +23,7 @@ const tutors = [
   },
   {
     name: "Zia Ur Rehman",
+    image: null as string | null,
     specialization: "M.COM",
     role: "Accountant",
     bio: "Zia Ur Rehman holds a Master of Commerce degree and specializes in commerce subjects and accounting software training. His patient teaching style and focus on hands-on practice make complex software tools accessible to learners at all levels.",
@@ -28,6 +32,7 @@ const tutors = [
   },
   {
     name: "Jagruthi Chopra",
+    image: null as string | null,
     specialization: "CA Finalist | M.COM",
     role: "Taxation Manager",
     bio: "Jagruthi is a CA Finalist and M.COM graduate with expertise in financial accounting, taxation, and business analysis. Her ability to simplify advanced concepts and provide personalized mentorship makes her a favorite among students seeking career growth.",
@@ -54,9 +59,13 @@ const TutorsPage = () => (
           {tutors.map((t) => (
             <div key={t.name} className="rounded-xl border bg-card p-8 shadow-card hover:shadow-card-hover transition-all">
               <div className="flex items-center gap-5 mb-5">
-                <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xl shrink-0">
-                  {t.name.split(" ").map(n => n[0]).join("")}
-                </div>
+                {t.image ? (
+                  <img src={t.image} alt={t.name} className="h-16 w-16 rounded-full object-cover shrink-0" />
+                ) : (
+                  <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xl shrink-0">
+                    {t.name.split(" ").map(n => n[0]).join("")}
+                  </div>
+                )}
                 <div>
                   <h3 className="font-bold text-lg">{t.name}</h3>
                   <p className="text-sm text-primary font-medium">{t.specialization}</p>
