@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Clock, DollarSign } from "lucide-react";
+import { Clock, Banknote } from "lucide-react";
 
 interface Course {
   title: string;
@@ -67,7 +67,7 @@ const CoursesPage = () => (
                       <Clock className="h-4 w-4 text-primary" /> {course.duration}
                     </div>
                     <div className="flex items-center gap-2 font-semibold text-foreground">
-                      <DollarSign className="h-4 w-4 text-primary" /> {course.fee}
+                      <Banknote className="h-4 w-4 text-primary" /> {course.fee}
                     </div>
                   </div>
                   <Link to="/admissions" className="mt-4">
