@@ -70,6 +70,9 @@ const CoursesPage = () => (
                     <div className="flex items-center gap-2 font-semibold text-foreground">
                       <Banknote className="h-4 w-4 text-primary" /> {course.fee}
                     </div>
+                    <div className="flex items-center gap-2 text-muted-foreground">
+                      <Banknote className="h-4 w-4 text-green-600" /> {course.feeUsd} <span className="text-xs">(for international students)</span>
+                    </div>
                   </div>
                   <Link to="/admissions" className="mt-4">
                     <Button variant="cta" className="w-full">Enroll Now</Button>
