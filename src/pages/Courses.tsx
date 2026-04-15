@@ -9,6 +9,7 @@ interface Course {
   desc: string;
   duration: string;
   fee: string;
+  feeUsd: string;
 }
 
 const courseCategories: { category: string; courses: Course[] }[] = [
