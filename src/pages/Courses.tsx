@@ -16,28 +16,28 @@ const courseCategories: { category: string; courses: Course[] }[] = [
   {
     category: "Accounting Software Training",
     courses: [
-      { title: "QuickBooks", desc: "Complete QuickBooks training covering invoicing, expense tracking, payroll, and financial reporting.", duration: "8 Weeks", fee: "PKR 8,000" },
-      { title: "Odoo Accounting", desc: "Learn Odoo ERP accounting module including journal entries, bank reconciliation, and reporting.", duration: "8 Weeks", fee: "PKR 8,000" },
-      { title: "Zoho Books", desc: "Learn Zoho Books for invoicing, expense management, bank reconciliation, and GST-compliant reporting.", duration: "8 Weeks", fee: "PKR 8,000" },
-      { title: "Xero", desc: "Master Xero for invoicing, inventory management, bank feeds, and cloud-based accounting.", duration: "8 Weeks", fee: "PKR 8,000" },
-      { title: "Excel for Accounting", desc: "Advanced Excel formulas, pivot tables, VLOOKUP, and financial modeling for accountants.", duration: "8 Weeks", fee: "PKR 8,000" },
+      { title: "QuickBooks", desc: "Complete QuickBooks training covering invoicing, expense tracking, payroll, and financial reporting.", duration: "8 Weeks", fee: "PKR 8,000", feeUsd: "USD 29" },
+      { title: "Odoo Accounting", desc: "Learn Odoo ERP accounting module including journal entries, bank reconciliation, and reporting.", duration: "8 Weeks", fee: "PKR 8,000", feeUsd: "USD 29" },
+      { title: "Zoho Books", desc: "Learn Zoho Books for invoicing, expense management, bank reconciliation, and GST-compliant reporting.", duration: "8 Weeks", fee: "PKR 8,000", feeUsd: "USD 29" },
+      { title: "Xero", desc: "Master Xero for invoicing, inventory management, bank feeds, and cloud-based accounting.", duration: "8 Weeks", fee: "PKR 8,000", feeUsd: "USD 29" },
+      { title: "Excel for Accounting", desc: "Advanced Excel formulas, pivot tables, VLOOKUP, and financial modeling for accountants.", duration: "8 Weeks", fee: "PKR 8,000", feeUsd: "USD 29" },
     ],
   },
   {
     category: "Accounting Subjects Teaching",
     courses: [
-      { title: "Financial Accounting", desc: "Comprehensive coverage of IFRS, journal entries, ledger, trial balance, and financial statements.", duration: "3 Months", fee: "PKR 15,000" },
-      { title: "Cost Accounting", desc: "Learn cost analysis, budgeting, variance analysis, and cost allocation techniques.", duration: "3 Months", fee: "PKR 12,000" },
-      { title: "Managerial Accounting", desc: "Decision-making tools, CVP analysis, performance evaluation, and strategic planning.", duration: "3 Months", fee: "PKR 15,000" },
+      { title: "Financial Accounting", desc: "Comprehensive coverage of IFRS, journal entries, ledger, trial balance, and financial statements.", duration: "3 Months", fee: "PKR 15,000", feeUsd: "USD 54" },
+      { title: "Cost Accounting", desc: "Learn cost analysis, budgeting, variance analysis, and cost allocation techniques.", duration: "3 Months", fee: "PKR 12,000", feeUsd: "USD 43" },
+      { title: "Managerial Accounting", desc: "Decision-making tools, CVP analysis, performance evaluation, and strategic planning.", duration: "3 Months", fee: "PKR 15,000", feeUsd: "USD 54" },
     ],
   },
   {
     category: "Tax Courses",
     courses: [
-      { title: "Income Tax (Pakistan)", desc: "Pakistan income tax laws, return filing, withholding tax, and compliance requirements.", duration: "8 Weeks", fee: "PKR 10,000" },
-      { title: "Sales Tax (Pakistan)", desc: "Sales tax registration, return filing, input/output adjustments, and FBR portal training.", duration: "8 Weeks", fee: "PKR 7,000" },
-      { title: "UAE Corporate Tax", desc: "UAE corporate tax framework, compliance requirements, and free zone regulations.", duration: "8 Weeks", fee: "PKR 12,000" },
-      { title: "UAE VAT", desc: "UAE Value Added Tax registration, return filing, compliance, and input tax recovery.", duration: "8 Weeks", fee: "PKR 12,000" },
+      { title: "Income Tax (Pakistan)", desc: "Pakistan income tax laws, return filing, withholding tax, and compliance requirements.", duration: "8 Weeks", fee: "PKR 10,000", feeUsd: "USD 36" },
+      { title: "Sales Tax (Pakistan)", desc: "Sales tax registration, return filing, input/output adjustments, and FBR portal training.", duration: "8 Weeks", fee: "PKR 7,000", feeUsd: "USD 25" },
+      { title: "UAE Corporate Tax", desc: "UAE corporate tax framework, compliance requirements, and free zone regulations.", duration: "8 Weeks", fee: "PKR 12,000", feeUsd: "USD 43" },
+      { title: "UAE VAT", desc: "UAE Value Added Tax registration, return filing, compliance, and input tax recovery.", duration: "8 Weeks", fee: "PKR 12,000", feeUsd: "USD 43" },
     ],
   },
 ];
