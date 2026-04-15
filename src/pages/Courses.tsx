@@ -26,9 +26,9 @@ const courseCategories: { category: string; courses: Course[] }[] = [
   {
     category: "Accounting Subjects Teaching",
     courses: [
-      { title: "Financial Accounting", desc: "Comprehensive coverage of IFRS, journal entries, ledger, trial balance, and financial statements.", duration: "3 Months", fee: "PKR 15,000", feeUsd: "$70" },
-      { title: "Cost Accounting", desc: "Learn cost analysis, budgeting, variance analysis, and cost allocation techniques.", duration: "3 Months", fee: "PKR 12,000", feeUsd: "$70" },
-      { title: "Managerial Accounting", desc: "Decision-making tools, CVP analysis, performance evaluation, and strategic planning.", duration: "3 Months", fee: "PKR 15,000", feeUsd: "$70" },
+      { title: "Financial Accounting", desc: "Comprehensive coverage of IFRS, journal entries, ledger, trial balance, and financial statements.", duration: "3 Months", fee: "PKR 15,000", feeUsd: "$100" },
+      { title: "Cost Accounting", desc: "Learn cost analysis, budgeting, variance analysis, and cost allocation techniques.", duration: "3 Months", fee: "PKR 12,000", feeUsd: "$100" },
+      { title: "Managerial Accounting", desc: "Decision-making tools, CVP analysis, performance evaluation, and strategic planning.", duration: "3 Months", fee: "PKR 15,000", feeUsd: "$100" },
     ],
   },
   {
